@@ -4,3 +4,5 @@ cd $env:Scripts
 
 #Welcome Message
 Write-host "Hello $env:USERNAME.  Have a great $((get-date).DayOfWeek)." -foregroundcolor magenta
+
+$env:COMPUTERNAME
